@@ -48,9 +48,10 @@ float getDotProduct(int x, int y, grad **Gradients)
 void drawPlasma(int x, int y, grad **Gradients, SDL_Renderer *rend)
 {
 	Uint8 r,g,b;
-	r = sin(perlin(x,y,Gradients)) * MAX;
-	g = cos(perlin(x,y,Gradients)) * MAX;
-	b = (1/ sin(perlin(x,y,Gradients))) * MAX;//cosec
+	float noise = perlin(x,y,Gradients);
+	r = sin(noise) * MAX;
+	g = cos(noise) * MAX;
+	b = (1/ sin(noise)) * MAX;//cosec
 	SDL_SetRenderDrawColor(rend,r,g,b,0);
 	SDL_RenderDrawPoint(rend,x,y);
 }
