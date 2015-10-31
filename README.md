@@ -15,3 +15,5 @@ Current Algorithms :
 - Euclid's HCF 
 
 - Euler's Phi function
+
+- Random BMP Generator
