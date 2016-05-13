@@ -1,0 +1,10 @@
+[
+	{
+		"SCREEN_WIDTH" : 1280,
+		"SCREEN_HEIGHT" : 720,
+		"WINDOW_TITLE" : "Vonoroi Diagrams",
+		"TILE_SIZE_X": 2,
+		"TILE_SIZE_Y": 2,
+		"NUMBER_VERTICES" : 200
+	}
+]
