@@ -17,3 +17,5 @@ Current Algorithms :
 - Euler's Phi function
 
 - Random BMP Generator
+
+- Voronoi Diagrams 
