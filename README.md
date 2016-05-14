@@ -19,3 +19,6 @@ Current Algorithms :
 - Random BMP Generator
 
 - Voronoi Diagrams 
+
+- Binary Trees with Binary Search 
+
